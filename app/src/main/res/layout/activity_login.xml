@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".Login">
+        >
+
+        <RelativeLayout
+            android:id="@+id/widget61"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:layout_x="0px"
+            android:layout_y="0px"
+            android:background="#000">
+
+            <TextView
+                android:id="@+id/widget62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Formulir Pendaftaran"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/widget30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="100dp"
+            android:text="NIM"></TextView>
+
+        <EditText
+            android:id="@+id/nim_editText"
+            android:layout_width="400px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:text=""
+            android:textSize="18sp"></EditText>
+
+
+        <TextView
+            android:id="@+id/widget31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:text="Nama Lengkap"></TextView>
+
+        <EditText
+            android:id="@+id/nama_editText"
+            android:layout_width="400px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginBottom="50dp"
+            android:text=""
+            android:textSize="18sp"></EditText>
+
+        <Button
+            android:id="@+id/buttonIn"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Masuk"></Button>
+
+        <Button
+            android:id="@+id/buttonReset"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Reset"></Button>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
